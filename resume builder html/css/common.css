@@ -1,0 +1,79 @@
+
+.cmn-btn {
+  padding: 8px;
+  border: 1px solid transparent;
+  border-radius: 8px;
+  background-color: var(--clr-primary);
+  color: var(--clr-white);
+  text-align: center;
+  cursor: pointer;
+  width: 100px;
+}
+/* header */
+.header {
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  background-color: var(--clr-white);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.15);
+  padding: 10px 0;
+  position: fixed;
+  width: 100%;
+  z-index: 9999;
+}
+
+.header .d-flex {
+  align-items: center;
+}
+
+.header .header-logo {
+  width: 320px;
+}
+
+.header .gnav li {
+  width: 110px;
+  line-height: 1.5;
+  text-align: center;
+}
+
+.header .gnav li:last-child {
+  margin-right: 0;
+}
+
+.header .gnav .non-active {
+  color: var(--clr-primary);
+} 
+
+.active {
+  background-color: var(--clr-primary);
+  color: var(--clr-white);
+}
+
+.header .menu-ico {
+  display: none;
+}
+/* footer */
+footer {
+  background-color: var(--clr-black);
+  color: var(--clr-white);
+  text-align: center;
+  padding: 20px 0;
+  bottom: 0;
+  width: 100%;
+}
+
+.footer-content p {
+  margin: 5px 0;
+}
+
+.footer-content a {
+  color: var(--clr-primary);
+  text-decoration: none;
+}
+
+.footer-content a:hover {
+  text-decoration: underline;
+}
+.header .profile-link img {
+  max-width: 50px;
+  height: auto;
+}

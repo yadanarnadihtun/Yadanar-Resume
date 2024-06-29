@@ -1,0 +1,124 @@
+/* Reset some basic styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Set font and base styles */
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+/* Main content container */
+.main-content {
+  display: flex;
+  width: 210mm; /* A4 width */
+  margin: auto;
+  background: white;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  height: 280mm; /* Adjusted height */
+}
+
+/* Left section styles */
+.left-section {
+  background-color: #2ecc71; /* Green color */
+  width: 30%;
+  padding: 10px; /* Reduced padding for compactness */
+  color: white;
+}
+
+.profile .image img {
+  width: 100%;
+  border-radius: 50%;
+}
+
+.name {
+  font-size: 25px; /* Reduced font size */
+  margin-top: 5px;
+}
+
+.career {
+  font-size: 16px; /* Reduced font size */
+  color: #ffffff;
+  font-weight: 700;
+}
+
+.main-title {
+  margin-top: 15px; /* Reduced margin */
+  font-size: 20px; /* Reduced font size */
+  margin-bottom: 10px; /* Reduced margin */
+  color: #666;
+}
+
+.personal-info ul, .skills-section ul, .languages ul {
+  list-style: none;
+}
+
+.personal-info li, .languages li {
+  margin-bottom: 10px; /* Reduced margin */
+}
+
+.fa {
+  margin-right: 5px; /* Reduced margin */
+}
+
+
+/* Right section styles */
+.right-section {
+  width: 70%;
+  padding: 10px; /* Reduced padding */
+}
+
+.right-main-content {
+  margin-left: 10px; /* Reduced margin */
+}
+
+.right-title {
+  font-size: 20px; /* Reduced font size */
+  margin-bottom: 20px; /* Reduced margin */
+  color: #2ecc71;
+  font-weight: 700;
+}
+
+.para {
+  margin-bottom: 5px; /* Reduced margin */
+  color: #666;
+}
+
+.timeline {
+  display: flex;
+  margin-bottom: 10px; /* Reduced margin */
+}
+
+.left-tl-content, .right-tl-content {
+  width: 50%;
+}
+
+.left-tl-content .tl-title {
+  font-size: 16px; /* Reduced font size */
+}
+
+.tl-title-2 {
+  font-size: 14px; /* Reduced font size */
+}
+
+.project {
+  margin-bottom: 10px; /* Reduced margin */
+}
+
+.project .tl-title {
+  font-size: 16px; /* Reduced font size */
+}
+
+.interests ul {
+  list-style: none;
+  margin-top: 5px; /* Reduced margin */
+}
+
+.interests li {
+  margin-bottom: 5px; /* Reduced margin */
+}
